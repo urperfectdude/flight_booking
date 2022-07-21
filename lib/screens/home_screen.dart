@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   InkWell(
                     onTap: () {
-                      print("You Tapped");
+                      debugPrint("You Tapped");
                     },
                     child: Text(
                       "View All",
